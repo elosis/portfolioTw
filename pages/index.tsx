@@ -9,17 +9,13 @@ import Skills from "../components/Skills";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
-  const func = () => {
-    return <div>you&apos;re free</div>;
-  };
-
   return (
     <div>
       <Head>
         <title>Omer | Front-End Developer</title>
         <meta
           name="description"
-          content="I&aposm a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="Me a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
         <link rel="icon" href="/portfolioIcon.png" />
       </Head>
