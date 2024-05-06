@@ -19,7 +19,7 @@ export default function Home() {
         <title>Omer | Front-End Developer</title>
         <meta
           name="description"
-          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="I&aposm a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
         <link rel="icon" href="/portfolioIcon.png" />
       </Head>
