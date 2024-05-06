@@ -4,7 +4,7 @@ import todosImg from "/public/assets/projects/todos.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const pokemons = () => {
+const todos = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -60,4 +60,4 @@ const pokemons = () => {
   );
 };
 
-export default pokemons;
+export default todos;

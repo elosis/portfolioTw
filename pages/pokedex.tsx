@@ -4,7 +4,7 @@ import pokedexImg from "/public/assets/projects/pokedex.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const bookstore = () => {
+const pokedex = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -17,7 +17,7 @@ const bookstore = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Bookstore</h2>
+          <h2 className="py-2">Pokedex</h2>
           <h3>React JS</h3>
         </div>
       </div>
@@ -58,4 +58,4 @@ const bookstore = () => {
   );
 };
 
-export default bookstore;
+export default pokedex;
