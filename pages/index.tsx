@@ -9,6 +9,10 @@ import Skills from "../components/Skills";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
+  const func = () => {
+    return <div>you&apos;re free</div>;
+  };
+
   return (
     <div>
       <Head>
