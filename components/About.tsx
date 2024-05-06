@@ -18,7 +18,7 @@ const About = () => {
           <p className="py-2 text-gray-600">
             I have spent the last 7 years in foreign trade working. I have
             always had a knack for technology and working with computers. In
-            2022, I started working with HTML & CSS to make some minot edits on
+            2022, I started working with HTML & CSS to make some minor edits on
             a small business website that I was operating. What I thought was
             just a few small edits turned into a love for programming.
           </p>
@@ -29,7 +29,6 @@ const About = () => {
             projects with React.js, Next.js , TypeScript, Bootstrap, Tailwind.
           </p>
           <Link href="https://github.com/elosis?tab=repositories">
-            {" "}
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my projects.
             </p>

@@ -27,8 +27,8 @@ const pokemons = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-4">
-            This app was built using React.js.Users can see Pokemon's id,
-            images,names and types. Aslo they can see more with 'load more'
+            This app was built using React.js.Users can see Pokemon id,
+            images,names and types. Aslo they can see more with load more
             button.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
