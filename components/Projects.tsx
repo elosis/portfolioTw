@@ -2,12 +2,12 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
-import bookstoreImg from "/public/assets/projects/bookstore.png";
-import passaportImg from "/public/assets/projects/passaport.png";
-import pokedexImg from "/public/assets/projects/pokedex.png";
-import pokemonsImg from "/public/assets/projects/pokemons.png";
-import ticketlessImg from "/public/assets/projects/ticketless.png";
-import todosImg from "/public/assets/projects/todos.png";
+import bookstoreImg from "../public/assets/projects/bookstore.png";
+import passaportImg from "../public/assets/projects/passaport.png";
+import pokedexImg from "../public/assets/projects/pokedex.png";
+import pokemonsImg from "../public/assets/projects/pokemons.png";
+import ticketlessImg from "../public/assets/projects/ticketless.png";
+import todosImg from "../public/assets/projects/todos.png";
 
 const Projects = () => {
   return (
