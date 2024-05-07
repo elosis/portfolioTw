@@ -1,13 +1,11 @@
-import Image from "next/image";
 import React from "react";
-import Link from "next/link";
 import ProjectItem from "./ProjectItem";
-import bookstoreImg from "/public/assets/projects/bookstore.png";
-import passaportImg from "/public/assets/projects/passaport.png";
-import pokedexImg from "/public/assets/projects/pokedex.png";
-import pokemonsImg from "/public/assets/projects/pokemons.png";
-import ticketlessImg from "/public/assets/projects/ticketless.png";
-import todosImg from "/public/assets/projects/todos.png";
+// import bookstoreImg from "/public/assets/projects/bookstore.png";
+// import passaportImg from "/public/assets/projects/passaport.png";
+// import pokedexImg from "/public/assets/projects/pokedex.png";
+// import pokemonsImg from "/public/assets/projects/pokemons.png";
+// import ticketlessImg from "/public/assets/projects/ticketless.png";
+// import todosImg from "/public/assets/projects/todos.png";
 
 const Projects = () => {
   return (
@@ -20,37 +18,37 @@ const Projects = () => {
         <div className=" grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="bookstore"
-            backgroundImg={bookstoreImg.src}
+            backgroundImg={"/assets/projects/bookstore.png"}
             projectUrl="/Bookstore"
             tech="React / TypeScript / Bootstrap"
           />
           <ProjectItem
             title="passaport"
-            backgroundImg={passaportImg.src}
+            backgroundImg={"/assets/projects/passaport.png"}
             projectUrl="/Passaport"
             tech="React"
           />
           <ProjectItem
             title="pokedex"
-            backgroundImg={pokedexImg.src}
+            backgroundImg={"/assets/projects/pokedex.png"}
             projectUrl="/Pokedex"
             tech="React"
           />
           <ProjectItem
             title="pokemons"
-            backgroundImg={pokemonsImg.src}
+            backgroundImg={"/assets/projects/pokemons.png"}
             projectUrl="/Pokemons"
             tech="React / TypeScript"
           />
           <ProjectItem
             title="ticketless"
-            backgroundImg={ticketlessImg.src}
+            backgroundImg={"/assets/projects/ticketless.png"}
             projectUrl="/Ticketless"
             tech="React / TypeScript"
           />
           <ProjectItem
             title="todos"
-            backgroundImg={todosImg.src}
+            backgroundImg={"/assets/projects/todos.png"}
             projectUrl="/Todos"
             tech="React / TypeScript"
           />
