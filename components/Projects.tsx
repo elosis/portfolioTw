@@ -21,37 +21,37 @@ const Projects = () => {
           <ProjectItem
             title="bookstore"
             backgroundImg={bookstoreImg.src}
-            projectUrl="/bookstore"
+            projectUrl="/Bookstore"
             tech="React / TypeScript / Bootstrap"
           />
           <ProjectItem
             title="passaport"
             backgroundImg={passaportImg.src}
-            projectUrl="/passaport"
+            projectUrl="/Passaport"
             tech="React"
           />
           <ProjectItem
             title="pokedex"
             backgroundImg={pokedexImg.src}
-            projectUrl="/pokedex"
+            projectUrl="/Pokedex"
             tech="React"
           />
           <ProjectItem
             title="pokemons"
             backgroundImg={pokemonsImg.src}
-            projectUrl="/pokemons"
+            projectUrl="/Pokemons"
             tech="React / TypeScript"
           />
           <ProjectItem
             title="ticketless"
             backgroundImg={ticketlessImg.src}
-            projectUrl="/ticketless"
+            projectUrl="/Ticketless"
             tech="React / TypeScript"
           />
           <ProjectItem
             title="todos"
             backgroundImg={todosImg.src}
-            projectUrl="/todos"
+            projectUrl="/Todos"
             tech="React / TypeScript"
           />
         </div>
