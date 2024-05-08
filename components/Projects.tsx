@@ -18,37 +18,37 @@ const Projects = () => {
         <div className=" grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="bookstore"
-            backgroundImg={"/assets/projects/bookstore.png"}
+            backgroundImg={"/assets/projects/bookstore.jpg"}
             projectUrl="/bookstore"
             tech="React / TypeScript / Bootstrap"
           />
           <ProjectItem
             title="passaport"
-            backgroundImg={"/assets/projects/passaport.png"}
+            backgroundImg={"/assets/projects/passaport.jpg"}
             projectUrl="/passaport"
             tech="React"
           />
           <ProjectItem
             title="pokedex"
-            backgroundImg={"/assets/projects/pokedex.png"}
+            backgroundImg={"/assets/projects/pokedex.jpg"}
             projectUrl="/pokedex"
             tech="React"
           />
           <ProjectItem
             title="pokemons"
-            backgroundImg={"/assets/projects/pokemons.png"}
+            backgroundImg={"/assets/projects/pokemons.jpg"}
             projectUrl="/pokemons"
             tech="React / TypeScript"
           />
           <ProjectItem
             title="ticketless"
-            backgroundImg={"/assets/projects/ticketless.png"}
+            backgroundImg={"/assets/projects/ticketless.jpg"}
             projectUrl="/ticketless"
             tech="React / TypeScript"
           />
           <ProjectItem
             title="todos"
-            backgroundImg={"/assets/projects/todos.png"}
+            backgroundImg={"/assets/projects/todos.jpg"}
             projectUrl="/todos"
             tech="React / TypeScript"
           />
