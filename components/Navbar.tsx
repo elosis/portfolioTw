@@ -1,18 +1,26 @@
 "use client";
 
+import { PortfolioContext } from "@/context/context";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useContext, useState } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { BsFillPersonLinesFill, BsPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Navbar = () => {
+  const {
+    portfolioData: { navBg, setNavBg, linkColor, setLinkColor },
+  } = useContext(PortfolioContext);
+
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
-  const [linkColor, setLinkColor] = useState("#1f1937");
+
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
   const router = useRouter();
 
   useEffect(() => {
@@ -31,10 +39,6 @@ const Navbar = () => {
       setLinkColor("#1f1937");
     }
   }, [router]);
-
-  const handleNav = () => {
-    setNav(!nav);
-  };
 
   useEffect(() => {
     const handleShadow = () => {
