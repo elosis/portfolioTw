@@ -33,9 +33,7 @@ const bookstore = () => {
             purchase them.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
-            <Link href="https://bookstore-9pz4shfwe-omerelaldis-projects.vercel.app/">
-              Demo
-            </Link>
+            <Link href="https://bookstore-beta-woad.vercel.app/">Demo</Link>
           </button>
           <button className="px-8 py-2 mt-4">
             <Link href="https://github.com/elosis/appwithboothstrap">Code</Link>
