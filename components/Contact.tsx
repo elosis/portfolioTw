@@ -37,7 +37,7 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <Link href="https://www.linkedin.com/in/%C3%B6mer-elald%C4%B1-7054771b4/">
+                    <Link href="https://www.linkedin.com/in/omer-elaldi-7054771b4/">
                       <FaLinkedinIn />
                     </Link>
                   </div>

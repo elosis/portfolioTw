@@ -25,7 +25,7 @@ const Main = () => {
             where I developed React apps to learn this framework environment.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <Link href="https://www.linkedin.com/in/%C3%B6mer-elald%C4%B1-7054771b4/">
+            <Link href="https://www.linkedin.com/in/omer-elaldi-7054771b4/">
               <div className="rounded-full shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
